@@ -24,7 +24,7 @@ class rankingMatrixView : UIView {
 		fatalError("init(coder:) has not been implemented")
 	}
 	
-	func addRecord(record:Array<String>){
+	func addRecord(_ record:Array<String>){
 		assert(columnWidths.count == record.count)
 		
 		let rowHeight:Int = 30

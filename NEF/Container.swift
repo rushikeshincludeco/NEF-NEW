@@ -11,7 +11,7 @@ import UIKit
 //MARK:- Delegate
 @objc public protocol tapDelegate:  NSObjectProtocol {
 	
-	func setDelegate(_ tag: Int)
+	func setDelegate( _ tag: Int)
 }
 
 class Container : UIView {
@@ -20,7 +20,7 @@ class Container : UIView {
 	
 	//MARK:- Helper Methods
 	
-	func expandView(_ sender: UIView, completion:@escaping ((Bool) -> Void)) -> Void {
+	func expandView(_ sender: UIView, completion: @escaping ((Bool) -> Void)) -> Void {
 		UIView.animate(withDuration: 0.2, animations: { () -> Void in
 			
 			sender.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
@@ -30,7 +30,7 @@ class Container : UIView {
 		})
 	}
 	
-	func collapseView(_ sender: UIView, completion:@escaping ((Bool) -> Void)) -> Void {
+	func collapseView(_ sender: UIView, completion: @escaping ((Bool) -> Void)) -> Void {
 		UIView.animate(withDuration: 0.2, animations: { () -> Void in
 			
 			sender.transform = CGAffineTransform(scaleX: 1, y: 1)

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SnapKit
 
 class VC: UIView {
 	let imgView = UIImageView()

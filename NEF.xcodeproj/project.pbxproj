@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		434EA83CB1F69E10A20F39C4 /* Pods_NEF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC02E13B815BE52505FDEE6 /* Pods_NEF.framework */; };
 		620486731E02878200113552 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620486721E02878200113552 /* Container.swift */; };
 		6204867E1E02BA2F00113552 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 620486751E02BA2F00113552 /* 1.png */; };
 		6204867F1E02BA2F00113552 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 620486761E02BA2F00113552 /* 2.png */; };
@@ -61,9 +60,6 @@
 		626A22F31E13CC4D00D3BD0E /* rankingMatrixView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rankingMatrixView.swift; sourceTree = "<group>"; };
 		626A22F51E13D30500D3BD0E /* rankingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rankingTableViewController.swift; sourceTree = "<group>"; };
 		6292905E1E0D351100E137D1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		6AC02E13B815BE52505FDEE6 /* Pods_NEF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9550FA36A0032560558B126 /* Pods-NEF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEF.release.xcconfig"; path = "Pods/Target Support Files/Pods-NEF/Pods-NEF.release.xcconfig"; sourceTree = "<group>"; };
-		E1781080960AA9C11D42B64D /* Pods-NEF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NEF/Pods-NEF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,22 +67,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434EA83CB1F69E10A20F39C4 /* Pods_NEF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		43191BF5F21E20A2DD111C50 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E1781080960AA9C11D42B64D /* Pods-NEF.debug.xcconfig */,
-				D9550FA36A0032560558B126 /* Pods-NEF.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		620486741E02BA2F00113552 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +97,6 @@
 			children = (
 				62149CD71DFF03FE0035A45E /* NEF */,
 				62149CD61DFF03FE0035A45E /* Products */,
-				43191BF5F21E20A2DD111C50 /* Pods */,
-				7995D012E574E434F6B43B58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,14 +129,6 @@
 			path = NEF;
 			sourceTree = "<group>";
 		};
-		7995D012E574E434F6B43B58 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6AC02E13B815BE52505FDEE6 /* Pods_NEF.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,12 +136,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62149CE71DFF03FE0035A45E /* Build configuration list for PBXNativeTarget "NEF" */;
 			buildPhases = (
-				6E3D9C65FC0B75CAED8D659E /* [CP] Check Pods Manifest.lock */,
 				62149CD11DFF03FE0035A45E /* Sources */,
 				62149CD21DFF03FE0035A45E /* Frameworks */,
 				62149CD31DFF03FE0035A45E /* Resources */,
-				C56D428A5B1070904D8404A6 /* [CP] Embed Pods Frameworks */,
-				0DB8AAB7BEF3A51B09BB195C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,54 +209,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0DB8AAB7BEF3A51B09BB195C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NEF/Pods-NEF-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E3D9C65FC0B75CAED8D659E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C56D428A5B1070904D8404A6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NEF/Pods-NEF-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		62149CD11DFF03FE0035A45E /* Sources */ = {
@@ -415,7 +340,6 @@
 		};
 		62149CE81DFF03FE0035A45E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1781080960AA9C11D42B64D /* Pods-NEF.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -430,7 +354,6 @@
 		};
 		62149CE91DFF03FE0035A45E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9550FA36A0032560558B126 /* Pods-NEF.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

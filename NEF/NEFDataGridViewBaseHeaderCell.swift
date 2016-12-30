@@ -7,12 +7,11 @@
 //
 
 import UIKit
-import GlyuckDataGrid
 
-open class NEFDataGridViewBaseHeaderCell: DataGridViewBaseHeaderCell {
+class NEFDataGridViewBaseHeaderCell: DataGridViewBaseHeaderCell {
 	
 	// MARK: - UIView
-	open override static func initialize() {
+	 override static func initialize() {
 		super.initialize()
 		let appearance = DataGridViewColumnHeaderCell.appearance()
 		appearance.backgroundColor = UIColor.white
