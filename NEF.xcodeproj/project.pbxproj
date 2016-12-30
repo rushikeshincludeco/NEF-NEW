@@ -26,14 +26,15 @@
 		62149CDE1DFF03FE0035A45E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62149CDC1DFF03FE0035A45E /* Main.storyboard */; };
 		62149CE01DFF03FE0035A45E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62149CDF1DFF03FE0035A45E /* Assets.xcassets */; };
 		62149CE31DFF03FE0035A45E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62149CE11DFF03FE0035A45E /* LaunchScreen.storyboard */; };
-		621B0EA21E13FB42007B0A0A /* NEFDataGridViewBaseHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B0EA11E13FB42007B0A0A /* NEFDataGridViewBaseHeaderCell.swift */; };
 		624D0DF11E11404A00136D35 /* path.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 624D0DF01E11404A00136D35 /* path.gpx */; };
 		626A22F41E13CC4D00D3BD0E /* rankingMatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626A22F31E13CC4D00D3BD0E /* rankingMatrixView.swift */; };
 		626A22F61E13D30500D3BD0E /* rankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626A22F51E13D30500D3BD0E /* rankingTableViewController.swift */; };
 		6292905F1E0D351100E137D1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6292905E1E0D351100E137D1 /* logo.png */; };
+		C8175D09A5E24CC4BF33AF54 /* Pods_NEF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A993B276B7A47FEA752A2CED /* Pods_NEF.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E97883EB1FB3EC534EFDBB1 /* Pods-NEF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NEF/Pods-NEF.debug.xcconfig"; sourceTree = "<group>"; };
 		620486721E02878200113552 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		620486751E02BA2F00113552 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		620486761E02BA2F00113552 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
@@ -55,11 +56,12 @@
 		62149CDF1DFF03FE0035A45E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62149CE21DFF03FE0035A45E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62149CE41DFF03FE0035A45E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		621B0EA11E13FB42007B0A0A /* NEFDataGridViewBaseHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEFDataGridViewBaseHeaderCell.swift; sourceTree = "<group>"; };
 		624D0DF01E11404A00136D35 /* path.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = path.gpx; sourceTree = "<group>"; };
 		626A22F31E13CC4D00D3BD0E /* rankingMatrixView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rankingMatrixView.swift; sourceTree = "<group>"; };
 		626A22F51E13D30500D3BD0E /* rankingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rankingTableViewController.swift; sourceTree = "<group>"; };
 		6292905E1E0D351100E137D1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		6FCDABB85D10853A27321E75 /* Pods-NEF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEF.release.xcconfig"; path = "Pods/Target Support Files/Pods-NEF/Pods-NEF.release.xcconfig"; sourceTree = "<group>"; };
+		A993B276B7A47FEA752A2CED /* Pods_NEF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +69,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8175D09A5E24CC4BF33AF54 /* Pods_NEF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12FF6604FFD2EC82DE8A09D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A993B276B7A47FEA752A2CED /* Pods_NEF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		620486741E02BA2F00113552 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +108,8 @@
 			children = (
 				62149CD71DFF03FE0035A45E /* NEF */,
 				62149CD61DFF03FE0035A45E /* Products */,
+				A0DEC64974DE3ACE07CE81C0 /* Pods */,
+				12FF6604FFD2EC82DE8A09D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,9 +137,17 @@
 				62149CDF1DFF03FE0035A45E /* Assets.xcassets */,
 				62149CE11DFF03FE0035A45E /* LaunchScreen.storyboard */,
 				62149CE41DFF03FE0035A45E /* Info.plist */,
-				621B0EA11E13FB42007B0A0A /* NEFDataGridViewBaseHeaderCell.swift */,
 			);
 			path = NEF;
+			sourceTree = "<group>";
+		};
+		A0DEC64974DE3ACE07CE81C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E97883EB1FB3EC534EFDBB1 /* Pods-NEF.debug.xcconfig */,
+				6FCDABB85D10853A27321E75 /* Pods-NEF.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62149CE71DFF03FE0035A45E /* Build configuration list for PBXNativeTarget "NEF" */;
 			buildPhases = (
+				85FBD534327BF80F61317A61 /* [CP] Check Pods Manifest.lock */,
 				62149CD11DFF03FE0035A45E /* Sources */,
 				62149CD21DFF03FE0035A45E /* Frameworks */,
 				62149CD31DFF03FE0035A45E /* Resources */,
+				02F7240B06AEA43AB036FE43 /* [CP] Embed Pods Frameworks */,
+				3315F015DB70F6B3AFAFD937 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +234,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02F7240B06AEA43AB036FE43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NEF/Pods-NEF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3315F015DB70F6B3AFAFD937 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NEF/Pods-NEF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FBD534327BF80F61317A61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62149CD11DFF03FE0035A45E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,7 +293,6 @@
 				620486731E02878200113552 /* Container.swift in Sources */,
 				621291A91E12772D009D0D73 /* MapViewController.swift in Sources */,
 				626A22F41E13CC4D00D3BD0E /* rankingMatrixView.swift in Sources */,
-				621B0EA21E13FB42007B0A0A /* NEFDataGridViewBaseHeaderCell.swift in Sources */,
 				62149CD91DFF03FE0035A45E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +411,7 @@
 		};
 		62149CE81DFF03FE0035A45E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E97883EB1FB3EC534EFDBB1 /* Pods-NEF.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -354,6 +426,7 @@
 		};
 		62149CE91DFF03FE0035A45E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCDABB85D10853A27321E75 /* Pods-NEF.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

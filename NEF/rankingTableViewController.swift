@@ -22,12 +22,12 @@ class rankingTableViewController: UIViewController{
 			make.right.bottom.equalTo(view)
 		}
 		
-		labelsMatrixView.addRecord(record: ["S.no.", "Item", "Value"])
-		labelsMatrixView.addRecord(record: ["1", "Item1", "Value1"])
-		labelsMatrixView.addRecord(record: ["2", "Item2", "Value2"])
-		labelsMatrixView.addRecord(record: ["Some Date", "06/24/2013", "06/30/2013"])
-		labelsMatrixView.addRecord(record: ["Field1", "hello", "This is a really really long string and should wrap to multiple lines."])
-		labelsMatrixView.addRecord(record: ["Long Fields", "The quick brown fox jumps over the little lazy dog.", "some new value"])
+		labelsMatrixView.addRecord(["S.no.", "Item", "Value"])
+		labelsMatrixView.addRecord(["1", "Item1", "Value1"])
+		labelsMatrixView.addRecord(["2", "Item2", "Value2"])
+		labelsMatrixView.addRecord(["Some Date", "06/24/2013", "06/30/2013"])
+		labelsMatrixView.addRecord(["Field1", "hello", "This is a really really long string and should wrap to multiple lines."])
+		labelsMatrixView.addRecord(["Long Fields", "The quick brown fox jumps over the little lazy dog.", "some new value"])
 		
 
 		
