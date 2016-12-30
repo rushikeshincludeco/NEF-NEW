@@ -11,7 +11,7 @@ import UIKit
 //MARK:- Delegate
 @objc public protocol tapDelegate:  NSObjectProtocol {
 	
-	func setDelegate(tag: Int)
+	func setDelegate(_ tag: Int)
 }
 
 class Container : UIView {
@@ -20,20 +20,20 @@ class Container : UIView {
 	
 	//MARK:- Helper Methods
 	
-	func expandView(sender: UIView, completion:((Bool) -> Void)) -> Void {
-		UIView.animateWithDuration(0.2, animations: { () -> Void in
+	func expandView(_ sender: UIView, completion:@escaping ((Bool) -> Void)) -> Void {
+		UIView.animate(withDuration: 0.2, animations: { () -> Void in
 			
-			sender.transform = CGAffineTransformMakeScale(1.1, 1.1)
-			self.bringSubviewToFront(sender)
+			sender.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
+			self.bringSubview(toFront: sender)
 			sender.layer.masksToBounds = false
 			completion(true)
 		})
 	}
 	
-	func collapseView(sender: UIView, completion:((Bool) -> Void)) -> Void {
-		UIView.animateWithDuration(0.2, animations: { () -> Void in
+	func collapseView(_ sender: UIView, completion:@escaping ((Bool) -> Void)) -> Void {
+		UIView.animate(withDuration: 0.2, animations: { () -> Void in
 			
-			sender.transform = CGAffineTransformMakeScale(1, 1)
+			sender.transform = CGAffineTransform(scaleX: 1, y: 1)
 			sender.layer.masksToBounds = false
 			completion(true)
 		})
@@ -41,7 +41,7 @@ class Container : UIView {
 	
 	//MARK:- Touch related method
 	
-	override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+	override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 		if let touch = touches.first {
 			if let sender = touch.view {
 				self.expandView(sender, completion: { _ in [] } )
@@ -49,14 +49,14 @@ class Container : UIView {
 		}
 	}
 	
-	override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+	override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
 		if let touch = touches.first {
 			if touch.view != nil {
-				let point = touch.locationInView(self)
+				let point = touch.location(in: self)
 				var activeView : UIView?
 				for view in subviews {
 					self.collapseView(view, completion: { _ in [] })
-					if view.frame.contains(CGRectMake(point.x - 15, point.y - 15, 30, 30)) {
+					if view.frame.contains(CGRect(x: point.x - 15, y: point.y - 15, width: 30, height: 30)) {
 						activeView = view
 					}
 				}
@@ -68,19 +68,19 @@ class Container : UIView {
 		}
 	}
 	
-	override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+	override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
 		if let touch = touches.first {
-			let point = touch.locationInView(self)
+			let point = touch.location(in: self)
 			var lastView : UIView?
 			for view in subviews {
 				self.collapseView(view, completion: { _ in [] })
-				if view.frame.contains(CGRectMake(point.x - 15, point.y - 15, 30, 30)) {
+				if view.frame.contains(CGRect(x: point.x - 15, y: point.y - 15, width: 30, height: 30)) {
 					lastView = view
 				}
 			}
 			
 			if let del = delegate,
-			 lastView = lastView {
+			 let lastView = lastView {
 				del.setDelegate(lastView.tag)
 
 			}

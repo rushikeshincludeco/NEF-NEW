@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434EA83CB1F69E10A20F39C4 /* Pods_NEF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC02E13B815BE52505FDEE6 /* Pods_NEF.framework */; };
 		620486731E02878200113552 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620486721E02878200113552 /* Container.swift */; };
 		6204867E1E02BA2F00113552 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 620486751E02BA2F00113552 /* 1.png */; };
 		6204867F1E02BA2F00113552 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 620486761E02BA2F00113552 /* 2.png */; };
@@ -20,17 +21,20 @@
 		620CA18E1E03CA9200377B06 /* 9.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 620CA1861E03CA9200377B06 /* 9.bmp */; };
 		620CA18F1E03CA9200377B06 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 620CA1871E03CA9200377B06 /* 10.jpg */; };
 		620CA1901E03CA9200377B06 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 620CA1881E03CA9200377B06 /* 11.jpg */; };
+		621291A91E12772D009D0D73 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621291A81E12772D009D0D73 /* MapViewController.swift */; };
 		62149CD91DFF03FE0035A45E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62149CD81DFF03FE0035A45E /* AppDelegate.swift */; };
 		62149CDB1DFF03FE0035A45E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62149CDA1DFF03FE0035A45E /* ViewController.swift */; };
 		62149CDE1DFF03FE0035A45E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62149CDC1DFF03FE0035A45E /* Main.storyboard */; };
 		62149CE01DFF03FE0035A45E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62149CDF1DFF03FE0035A45E /* Assets.xcassets */; };
 		62149CE31DFF03FE0035A45E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62149CE11DFF03FE0035A45E /* LaunchScreen.storyboard */; };
-		96E9881CF277B34FE9E5D593 /* Pods_NEF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6043F74FC8F3B80FB79A6BB8 /* Pods_NEF.framework */; };
+		621B0EA21E13FB42007B0A0A /* NEFDataGridViewBaseHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621B0EA11E13FB42007B0A0A /* NEFDataGridViewBaseHeaderCell.swift */; };
+		624D0DF11E11404A00136D35 /* path.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 624D0DF01E11404A00136D35 /* path.gpx */; };
+		626A22F41E13CC4D00D3BD0E /* rankingMatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626A22F31E13CC4D00D3BD0E /* rankingMatrixView.swift */; };
+		626A22F61E13D30500D3BD0E /* rankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626A22F51E13D30500D3BD0E /* rankingTableViewController.swift */; };
+		6292905F1E0D351100E137D1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6292905E1E0D351100E137D1 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		34703C6F4EE5BE09DC378496 /* Pods-NEF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEF.release.xcconfig"; path = "Pods/Target Support Files/Pods-NEF/Pods-NEF.release.xcconfig"; sourceTree = "<group>"; };
-		6043F74FC8F3B80FB79A6BB8 /* Pods_NEF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		620486721E02878200113552 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		620486751E02BA2F00113552 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		620486761E02BA2F00113552 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
@@ -44,6 +48,7 @@
 		620CA1861E03CA9200377B06 /* 9.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = 9.bmp; sourceTree = "<group>"; };
 		620CA1871E03CA9200377B06 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		620CA1881E03CA9200377B06 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		621291A81E12772D009D0D73 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		62149CD51DFF03FE0035A45E /* NEF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62149CD81DFF03FE0035A45E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62149CDA1DFF03FE0035A45E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +56,14 @@
 		62149CDF1DFF03FE0035A45E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62149CE21DFF03FE0035A45E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62149CE41DFF03FE0035A45E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB389C64A136F2606AA9ACE3 /* Pods-NEF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NEF/Pods-NEF.debug.xcconfig"; sourceTree = "<group>"; };
+		621B0EA11E13FB42007B0A0A /* NEFDataGridViewBaseHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEFDataGridViewBaseHeaderCell.swift; sourceTree = "<group>"; };
+		624D0DF01E11404A00136D35 /* path.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = path.gpx; sourceTree = "<group>"; };
+		626A22F31E13CC4D00D3BD0E /* rankingMatrixView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rankingMatrixView.swift; sourceTree = "<group>"; };
+		626A22F51E13D30500D3BD0E /* rankingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rankingTableViewController.swift; sourceTree = "<group>"; };
+		6292905E1E0D351100E137D1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		6AC02E13B815BE52505FDEE6 /* Pods_NEF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9550FA36A0032560558B126 /* Pods-NEF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEF.release.xcconfig"; path = "Pods/Target Support Files/Pods-NEF/Pods-NEF.release.xcconfig"; sourceTree = "<group>"; };
+		E1781080960AA9C11D42B64D /* Pods-NEF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NEF/Pods-NEF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,26 +71,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E9881CF277B34FE9E5D593 /* Pods_NEF.framework in Frameworks */,
+				434EA83CB1F69E10A20F39C4 /* Pods_NEF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0740F5BDC323A8256587F16A /* Frameworks */ = {
+		43191BF5F21E20A2DD111C50 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6043F74FC8F3B80FB79A6BB8 /* Pods_NEF.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		319A35724E768404D3357585 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AB389C64A136F2606AA9ACE3 /* Pods-NEF.debug.xcconfig */,
-				34703C6F4EE5BE09DC378496 /* Pods-NEF.release.xcconfig */,
+				E1781080960AA9C11D42B64D /* Pods-NEF.debug.xcconfig */,
+				D9550FA36A0032560558B126 /* Pods-NEF.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -89,6 +93,7 @@
 				620CA1811E03CA9200377B06 /* 4.jpg */,
 				620CA1821E03CA9200377B06 /* 5.jpg */,
 				620CA1831E03CA9200377B06 /* 6.jpg */,
+				6292905E1E0D351100E137D1 /* logo.png */,
 				620CA1841E03CA9200377B06 /* 7.jpg */,
 				620CA1851E03CA9200377B06 /* 8.jpg */,
 				620CA1861E03CA9200377B06 /* 9.bmp */,
@@ -106,8 +111,8 @@
 			children = (
 				62149CD71DFF03FE0035A45E /* NEF */,
 				62149CD61DFF03FE0035A45E /* Products */,
-				319A35724E768404D3357585 /* Pods */,
-				0740F5BDC323A8256587F16A /* Frameworks */,
+				43191BF5F21E20A2DD111C50 /* Pods */,
+				7995D012E574E434F6B43B58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,16 +128,29 @@
 			isa = PBXGroup;
 			children = (
 				620486741E02BA2F00113552 /* Assets */,
+				624D0DF01E11404A00136D35 /* path.gpx */,
 				62149CD81DFF03FE0035A45E /* AppDelegate.swift */,
 				620486721E02878200113552 /* Container.swift */,
 				62149CDA1DFF03FE0035A45E /* ViewController.swift */,
+				626A22F31E13CC4D00D3BD0E /* rankingMatrixView.swift */,
+				626A22F51E13D30500D3BD0E /* rankingTableViewController.swift */,
+				621291A81E12772D009D0D73 /* MapViewController.swift */,
 				620CA17F1E03B7C600377B06 /* VC.swift */,
 				62149CDC1DFF03FE0035A45E /* Main.storyboard */,
 				62149CDF1DFF03FE0035A45E /* Assets.xcassets */,
 				62149CE11DFF03FE0035A45E /* LaunchScreen.storyboard */,
 				62149CE41DFF03FE0035A45E /* Info.plist */,
+				621B0EA11E13FB42007B0A0A /* NEFDataGridViewBaseHeaderCell.swift */,
 			);
 			path = NEF;
+			sourceTree = "<group>";
+		};
+		7995D012E574E434F6B43B58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AC02E13B815BE52505FDEE6 /* Pods_NEF.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,12 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62149CE71DFF03FE0035A45E /* Build configuration list for PBXNativeTarget "NEF" */;
 			buildPhases = (
-				900FBFFBCCDEFBCBA9AF84F0 /* [CP] Check Pods Manifest.lock */,
+				6E3D9C65FC0B75CAED8D659E /* [CP] Check Pods Manifest.lock */,
 				62149CD11DFF03FE0035A45E /* Sources */,
 				62149CD21DFF03FE0035A45E /* Frameworks */,
 				62149CD31DFF03FE0035A45E /* Resources */,
-				4E64542002AA7E15D97630A6 /* [CP] Embed Pods Frameworks */,
-				EB63874E8E02C950AE9F8560 /* [CP] Copy Pods Resources */,
+				C56D428A5B1070904D8404A6 /* [CP] Embed Pods Frameworks */,
+				0DB8AAB7BEF3A51B09BB195C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,11 +183,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "include tech.";
 				TargetAttributes = {
 					62149CD41DFF03FE0035A45E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HCW48TL765;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -198,6 +218,7 @@
 			files = (
 				620CA18F1E03CA9200377B06 /* 10.jpg in Resources */,
 				620CA18D1E03CA9200377B06 /* 8.jpg in Resources */,
+				6292905F1E0D351100E137D1 /* logo.png in Resources */,
 				620CA18B1E03CA9200377B06 /* 6.jpg in Resources */,
 				62149CE31DFF03FE0035A45E /* LaunchScreen.storyboard in Resources */,
 				620CA18E1E03CA9200377B06 /* 9.bmp in Resources */,
@@ -209,6 +230,7 @@
 				620486801E02BA2F00113552 /* 3.png in Resources */,
 				620CA18C1E03CA9200377B06 /* 7.jpg in Resources */,
 				62149CE01DFF03FE0035A45E /* Assets.xcassets in Resources */,
+				624D0DF11E11404A00136D35 /* path.gpx in Resources */,
 				62149CDE1DFF03FE0035A45E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,37 +238,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4E64542002AA7E15D97630A6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NEF/Pods-NEF-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		900FBFFBCCDEFBCBA9AF84F0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EB63874E8E02C950AE9F8560 /* [CP] Copy Pods Resources */ = {
+		0DB8AAB7BEF3A51B09BB195C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,6 +253,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NEF/Pods-NEF-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6E3D9C65FC0B75CAED8D659E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C56D428A5B1070904D8404A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NEF/Pods-NEF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -270,7 +292,11 @@
 			files = (
 				620CA1801E03B7C600377B06 /* VC.swift in Sources */,
 				62149CDB1DFF03FE0035A45E /* ViewController.swift in Sources */,
+				626A22F61E13D30500D3BD0E /* rankingTableViewController.swift in Sources */,
 				620486731E02878200113552 /* Container.swift in Sources */,
+				621291A91E12772D009D0D73 /* MapViewController.swift in Sources */,
+				626A22F41E13CC4D00D3BD0E /* rankingMatrixView.swift in Sources */,
+				621B0EA21E13FB42007B0A0A /* NEFDataGridViewBaseHeaderCell.swift in Sources */,
 				62149CD91DFF03FE0035A45E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,8 +337,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -357,8 +385,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -377,6 +407,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -384,25 +415,31 @@
 		};
 		62149CE81DFF03FE0035A45E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB389C64A136F2606AA9ACE3 /* Pods-NEF.debug.xcconfig */;
+			baseConfigurationReference = E1781080960AA9C11D42B64D /* Pods-NEF.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HCW48TL765;
 				INFOPLIST_FILE = NEF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.a.NEF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		62149CE91DFF03FE0035A45E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34703C6F4EE5BE09DC378496 /* Pods-NEF.release.xcconfig */;
+			baseConfigurationReference = D9550FA36A0032560558B126 /* Pods-NEF.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HCW48TL765;
 				INFOPLIST_FILE = NEF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.a.NEF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
